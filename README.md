@@ -1,4 +1,4 @@
-# crawl_env  
+# crawl_env   
 1. 安装好后更新系统
 sudo apt update
 sudo apt upgrade
