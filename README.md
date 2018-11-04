@@ -35,7 +35,6 @@ sudo apt-get install shadowsocks-qt5
 socksParentProxy = "localhost:1080"  
 socksProxyType = socks5  
 logLevel=4  
-
 终端使用代理  
 vim ~/.zshrc
 alias proxy="export http_proxy=http://localhost:8123;export https_proxy=http://localhost:8123"  
@@ -45,4 +44,8 @@ alias unproxy="unset http_proxy;unset https_proxy"
 取消执行unproxy  
 验证curl cip.cc  
 
-4. 安装pyenv
+4. 安装pyenv  
+安装依赖  
+sudo apt-get install -y make build-essential libssl1.0-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev libffi-dev liblzma-dev
