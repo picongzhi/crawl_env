@@ -35,6 +35,7 @@ sudo apt-get install shadowsocks-qt5
 socksParentProxy = "localhost:1080"  
 socksProxyType = socks5  
 logLevel=4  
+重启服务 sudo service polipo restart
 终端使用代理  
 vim ~/.zshrc
 alias proxy="export http_proxy=http://localhost:8123;export https_proxy=http://localhost:8123"  
