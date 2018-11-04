@@ -16,3 +16,6 @@ sudo apt install vim zsh wget curl git
 vim /etc/shells 添加zsh的绝对路径  
 切换shell chsh -s /usr/bin/zsh  
 安装oh-my-zsh sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  
+安装powerline字体 sudo apt-get install fonts-powerline  
+切换主题 vim ~/.zshrc theme = "agnoster"  
+修改提示符 vim ~/.oh-my-zsh/themes/agonster 最下面注释context (# context)  
