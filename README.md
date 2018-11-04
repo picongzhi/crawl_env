@@ -71,4 +71,8 @@ source ~/.zshrc
 sudo add-apt-repository ppa:alex-p/tesseract-ocr  
 sudo apt update  
 sudo apt install libcurl4-openssl-dev libssl-dev  
-sudo apt install tesseract-ocr libtesseract-dev libleptonica-dev
+sudo apt install tesseract-ocr libtesseract-dev libleptonica-dev  
+mkdir -p ~/workspace/python/virtualenv  
+cd ~/workspace/python/virtualenv  
+git clone https://github.com/picongzhi/crawl_env.git  
+pipenv install  
