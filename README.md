@@ -8,4 +8,6 @@ https://websiteforstudents.com/installing-virtualbox-guest-additions-on-ubuntu-1
 sudo apt install linux-headers-$(uname -r) build-essential dkms  
 sudo reboot  
 Devices => Insert Guest Additions CD image => Run  
+sudo reboot
+
 
