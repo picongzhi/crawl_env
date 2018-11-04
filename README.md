@@ -26,10 +26,8 @@ sudo add-apt-repository ppa:hzwhuang/ss-qt5
 sudo vim /etc/apt/sources.list.d/shadowsocks-qt5.list 将bionic改成artful（两个地方都要改）  
 sudo apt-get update  
 sudo apt-get install shadowsocks-qt5  
-
 添加代理服务器配置  
 打开shadowsocks-qt5，添加一个连接  
-
 终端代理  
 安装polipo sudo apt-get install polipo  
 修改配置文件 sudo vim /etc/polipo/config  
@@ -40,7 +38,6 @@ logLevel=4
 
 终端使用代理  
 vim ~/.zshrc
-# polipo  
 alias proxy="export http_proxy=http://localhost:8123;export https_proxy=http://localhost:8123"  
 alias unproxy="unset http_proxy;unset https_proxy"  
 添加别名  
