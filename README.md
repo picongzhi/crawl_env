@@ -76,3 +76,12 @@ mkdir -p ~/workspace/python/virtualenv
 cd ~/workspace/python/virtualenv  
 git clone https://github.com/picongzhi/crawl_env.git  
 pipenv install  
+
+7 其他  
+ssh https://linuxconfig.org/enable-ssh-on-ubuntu-18-04-bionic-beaver-linux  
+nginx https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04  
+mongodb https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-18-04  
+redis https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04  
+chrome https://linuxconfig.org/how-to-install-google-chrome-web-browser-on-ubuntu-18-04-bionic-beaver-linux   
+sublime text 3 https://linuxconfig.org/how-to-install-sublime-text-on-ubuntu-18-04-bionic-beaver-linux  
+docker https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04  
