@@ -37,7 +37,7 @@ socksProxyType = socks5
 logLevel=4  
 重启服务 sudo service polipo restart
 终端使用代理  
-vim ~/.zshrc
+vim ~/.zshrc  
 alias proxy="export http_proxy=http://localhost:8123;export https_proxy=http://localhost:8123"  
 alias unproxy="unset http_proxy;unset https_proxy"  
 添加别名  
