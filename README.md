@@ -75,9 +75,9 @@ sudo apt install tesseract-ocr libtesseract-dev libleptonica-dev
 mkdir -p ~/workspace/python/virtualenv  
 cd ~/workspace/python/virtualenv  
 git clone https://github.com/picongzhi/crawl_env.git  
-pipenv install
+pipenv install  
 
-7 其他  
+7. 其他  
 ssh https://linuxconfig.org/enable-ssh-on-ubuntu-18-04-bionic-beaver-linux  
 nginx https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04  
 mongodb https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-18-04  
