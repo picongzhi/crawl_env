@@ -23,7 +23,7 @@ vim /etc/shells 添加zsh的绝对路径
 4. 终端代理  
 安装shadowsocks-qt5  
 sudo add-apt-repository ppa:hzwhuang/ss-qt5  
-vim /etc/apt/sources.list.d/hzwhuang-ubuntu-ss-qt5-cosmic.list 将cosmic改成artful（两个地方都要改）  
+sudo vim /etc/apt/sources.list.d/hzwhuang-ubuntu-ss-qt5-cosmic.list 将cosmic改成artful（两个地方都要改）  
 sudo apt-get update  
 sudo apt-get install shadowsocks-qt5  
 添加代理服务器配置  
