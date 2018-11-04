@@ -58,6 +58,8 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
 echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc  
 source ~/.zshrc  
 pyenv install 3.5.0  
+pyenv install 2.7.15  
+pyenv global 2.7.15  
 
 5. 安装pipenv  
 pip install --user pipenv  
