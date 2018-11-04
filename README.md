@@ -8,6 +8,11 @@ https://websiteforstudents.com/installing-virtualbox-guest-additions-on-ubuntu-1
 sudo apt install linux-headers-$(uname -r) build-essential dkms  
 sudo reboot  
 Devices => Insert Guest Additions CD image => Run  
-sudo reboot
+sudo reboot  
+添加复制粘贴功能  
 
-
+3. 配置终端
+sudo apt install vim zsh wget curl git  
+vim /etc/shells 添加zsh的绝对路径  
+切换shell chsh -s /usr/bin/zsh  
+安装oh-my-zsh sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  
