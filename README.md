@@ -47,9 +47,11 @@ alias unproxy="unset http_proxy;unset https_proxy"
 
 4. 安装pyenv  
 安装依赖  
+sudo apt autoremove  
+sudo apt autoclean
 sudo apt-get install -y make build-essential libssl1.0-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
-xz-utils tk-dev libffi-dev liblzma-dev libedit-dev  
+xz-utils tk-dev libffi-dev liblzma-dev
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv  
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
