@@ -70,5 +70,5 @@ source ~/.zshrc
 安装依赖包
 sudo add-apt-repository ppa:alex-p/tesseract-ocr  
 sudo apt update  
-sudo apt install libcurl4-openssl-dev libssl-dev
+sudo apt install libcurl4-openssl-dev libssl-dev  
 sudo apt install tesseract-ocr libtesseract-dev libleptonica-dev
