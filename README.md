@@ -23,7 +23,7 @@ vim /etc/shells 添加zsh的绝对路径
 4. 终端代理  
 安装shadowsocks-qt5  
 sudo add-apt-repository ppa:hzwhuang/ss-qt5  
-sudo vim /etc/apt/sources.list.d/shadowsocks-qt5.list 将bionic改成artful（两个地方都要改）  
+vim /etc/apt/sources.list.d/hzwhuang-ubuntu-ss-qt5-cosmic.list 将cosmic改成artful（两个地方都要改）  
 sudo apt-get update  
 sudo apt-get install shadowsocks-qt5  
 添加代理服务器配置  
@@ -48,4 +48,8 @@ alias unproxy="unset http_proxy;unset https_proxy"
 安装依赖  
 sudo apt-get install -y make build-essential libssl1.0-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
-xz-utils tk-dev libffi-dev liblzma-dev
+xz-utils tk-dev libffi-dev liblzma-dev libedit-dev  
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv  
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc
